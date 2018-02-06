@@ -1,4 +1,3 @@
-# Starter code for assignment 1
 import json, math
 from doublehash import doublehash
 
