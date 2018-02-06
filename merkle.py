@@ -1,6 +1,4 @@
 # Starter code for assignment 1
-# UMass CS490P/690P Spring 2018
-
 import json, math
 from doublehash import doublehash
 
