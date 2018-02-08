@@ -10,9 +10,7 @@ with open('test.json', 'r') as f:
 
 member = False
 
-#########################
-## Your code goes here ##
-#########################
+
 
 #Finding the indices that have to queried. Finding the intervals that have to 
 #looked up in the merkle tree and getting their index addresses
@@ -33,8 +31,7 @@ def find_parents(indices,index, depth, low, high, offset, order):
 		#Traverse one level below and do the same for the updated array
 		find_parents(indices, index, depth-1, low, low+(high-low+1)/2-1, 2*offset, order)
 
-#TA confirmed that the length for all tests will be 8 on piazza 
-#because query function can only query 3 vals and it can be used just once	
+#TODO :Needs to be set as arg
 length = 8
 depth = 3
 
